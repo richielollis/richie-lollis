@@ -1,38 +1,188 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap'); */
+
+* {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .App {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.Header {
+  background-color: #7c64b3;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-top: 4rem;
+  
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.callCard {
+  color: #fff;
+  margin-bottom: 0.5rem;
+  font-size: 4.75rem;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.HeroSection {
+  background-color: #7c64b3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 15rem;
+  padding-bottom: 10rem;
+
+}
+
+.welcome {
+  color: black;
+  margin-bottom: 0.5rem;
+  font-size: 4.75rem;
+}
+
+.gitHub:hover, .linkedIn:hover {
+  color: black;
+}
+
+.gitHub, .linkedIn {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.75rem;
+  padding-top: 0rem;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: center;
+}
+
+.btn-resume:hover {
+  cursor: pointer;
+  background-color :#fff;
+  color: #7c64b3;
+}
+
+.btn-resume {
+  font-size: 1.25rem;
+  background-color: #7c64b3;
+  border-radius: 3px;
+  border-width: 2px;
+  border-style: solid;
+  padding: 1rem;
+  border-color: #fff;
+  color: #fff;
+  margin-top: 5rem;
+  margin-bottom: 8rem;
+}
+
+.AboutMe {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-around;
+  background-color: white;
+  font-size: 2.5rem;
+  line-height: 3rem;
+  text-align: left;
+  padding-top: 5rem;
+  padding-bottom: 40rem;
+  padding-right: 15rem;
+  padding-left: 15rem;
+
 }
 
-.App-link {
-  color: #61dafb;
+.AboutMe h3 {
+  color: black;
+  padding-bottom: 2rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.AboutMe p {
+  color: black;
+  font-weight: 100;
+  font-size: 1.75rem;
+}
+
+.Works {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: #7c64b3;
+  font-size: 2.5rem;
+  padding-top: 5rem;
+  padding-bottom: 40rem;
+  padding-right: 15rem;
+  padding-left: 15rem;
+}
+
+.Resume {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: #fff;
+  font-size: 2.5rem;
+  padding-top: 5rem;
+  padding-bottom: 40rem;
+  padding-right: 15rem;
+  padding-left: 15rem;
+}
+
+.GetInTouch {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: black;
+  font-size: 2.5rem;
+  color: #fff;
+  padding-top: 5rem;
+  padding-bottom: 10rem;
+  padding-right: 15rem;
+  padding-left: 15rem;
+}
+
+.GetInTouch h3 {
+  padding-bottom: 2rem;
+}
+
+.GetInTouch p {
+  color: #fff;
+  font-weight: 100; 
+  font-size: 1.75rem;
+}
+
+.Footer {
+  background-color: #7c64b3;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  
+}
+
+.FooterCallCard {
+  color: #fff;
+  margin-bottom: 0.5rem;
+  font-size: 4.75rem;
+}
+
+.FooterGitHub:hover, .FooterLinkedIn:hover {
+  color: black;
+}
+
+.FooterGitHub, .FooterLinkedIn {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.75rem;
+  padding-top: 1.5rem;
+}
+
+.CopyRight {
+  padding-right: 0.25rem;
+}
+
+.Footer p {
+  padding-top: 1.75rem;
+  padding-bottom: 1.75rem;
 }
